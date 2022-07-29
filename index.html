@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./style.css" />
+		<title>To-Do App</title>
+	</head>
+	<body>
+		<main>
+			<section class="header">
+				<h1>To-<span>Do </span><span>App</span>lication</h1>
+				<div class="entry">
+					<input
+						placeholder="Enter project name ..."
+						id="entry__input"
+						type="text"
+					/>
+					<button id="entry__confirm">ADD</button>
+				</div>
+			</section>
+			<section class="container">
+				<div class="container__card">
+					<div id="card-progress" class="container__card-head">
+						<h3>In Progress</h3>
+					</div>
+					<div id="progress" class="container__card-data"></div>
+				</div>
+				<div class="container__card">
+					<div id="card-hold" class="container__card-head">
+						<h3>On Hold</h3>
+					</div>
+					<div id="hold" class="container__card-data"></div>
+				</div>
+				<div class="container__card">
+					<div id="card-review" class="container__card-head">
+						<h3>In Review</h3>
+					</div>
+					<div id="review" class="container__card-data"></div>
+				</div>
+				<div class="container__card">
+					<div id="card-approved" class="container__card-head">
+						<h3>Approved</h3>
+					</div>
+					<div id="approve" class="container__card-data"></div>
+				</div>
+			</section>
+			<!-- <i class="fa-solid fa-trash"></i> -->
+		</main>
+		<!-- <script src="./app.js"></script> -->
+		<script src="./app2.js"></script>
+	</body>
+</html>
